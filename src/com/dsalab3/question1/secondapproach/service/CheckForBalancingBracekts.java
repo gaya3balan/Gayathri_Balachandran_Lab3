@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class CheckForBalancingBracekts {
 	
-	//*Note to Great Learning reviewer: This is my alternate version to Question 2 that I wrote on my own for practice. As we are covering Data Structure lab sessions- have used hashmap as a lookup for matching braces.
+	//*Note to Great Learning reviewer: This is my alternate version to Question 1 that I wrote on my own for practice. As we are covering Data Structure lab sessions- have used hashmap as a lookup for matching braces.
     //logic is -use a for loop to read characters of the string- push all left braces into a stack. As and when right braces are encountered while reading string
 	//check against hashmap by passing right brace as key to see if the popped character from stack is the corresponding left brace
 	//In the end stack should be empty and all characters should be read for the expression to be balanced.
