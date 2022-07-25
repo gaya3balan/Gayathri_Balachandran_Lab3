@@ -2,7 +2,7 @@ package com.dsalab3.question2.secondapproach.service;
 
 import java.util.ArrayList;
 
-//*note to Great Learning Reviewer: This is my alternate version to Question1 that I wrote on my own for practice. In order to find if sum of two nodes is equal to 
+//*note to Great Learning Reviewer: This is my alternate version to Question 2 that I wrote on my own for practice. In order to find if sum of two nodes is equal to 
 //*passed value- I have done this logic: First after tree is created- do a traversal and save all the nodes in an arraylist
 //*Then call a method by passing this arraylist to traverse the tree once more recursively to check if current node is ( sum minus arraylist element)
 //*as arraylist element + current node = sum, we print the pairs- arraylist element and the tree node. Once a pair is found, I am stopping my recursion.
